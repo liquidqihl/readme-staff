@@ -6,7 +6,7 @@
 2. Clone this repository:
    `git clone https://github.com/liquidqihl/readme-staff`
 3. Go to `readme` directory.
-4. Open terminal. Make sure your terminal current path is `readme` directory.
+4. Open terminal. Make sure your terminal current path is `readme-staff` directory.
 5. Install dependencies:
    `npm install`
 
