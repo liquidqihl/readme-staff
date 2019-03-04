@@ -106,4 +106,4 @@ If it was beyond regular flaming and insults, 7 day minimum ban.
 - If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser. Maybe tell them to clear their browser cache and try again. 
 - If bot says a new persons rank is `error` check if they have a rank in game. If not, give them the beginner role or tell them to play a few more games until they get a rank. 
 - If bot says someone someones Steam is already linked to another Discord account, ask them to get on that Discord account and post in `#help-desk`. It's not a huge deal if they can't, but it's preferable. Check if they've been banned. If not, `!adminunlinksteam [steamid]` to unlink from the other Discord account. 
-- Lobbies auto-close after 15 minutes of no activity, 10 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves. 
+- Lobbies auto-close after 15 minutes of no activity, 5 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves. 
