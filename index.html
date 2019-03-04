@@ -12,108 +12,105 @@
     />
   </head>
   <body>
-    <div id="md-container"><h1 id="liquidqihl-readme">Liquid.qihl README</h1>
-<p>Welcome to Liquid.qihl! This document contains everything you need to know to interact with this server. Please read all of it before posting to <code>#help-desk</code>, it will save you and the staff time and questions. Thank you.</p>
+    <div id="md-container"><h1 id="liquidqihl-staff-readme">Liquid.qihl Staff README</h1>
+<p>Welcome to Liquid.qihl staff! This document contains information to help you as a staff member. Please read it!</p>
 <h2 id="contents">Contents</h2>
 <ol>
-<li><a href="#rules">Rules</a></li>
-<li><a href="#ranks">Ranks</a><br>
-2.1 <a href="#checking-ranks">Checking Ranks</a></li>
-<li><a href="#reporting-players">Reporting Players</a></li>
-<li><a href="#finding-joining-and-hosting-games">Finding, Joining, and Hosting Games</a></li>
-<li><a href="#get-started">Get Started</a></li>
+<li><a href="#get-started/misc">Get Started/MISC</a></li>
+<li><a href="#channel-descriptions">Channel Descriptions</a><br>
+2.1 <a href="#info">Info</a><br>
+2.2 <a href="#staff">Staff</a><br>
+2.3 <a href="#development">Development</a><br>
+2.4 <a href="#chessbot">Chessbot</a></li>
+<li><a href="#player-reports">Player Reports</a><br>
+3.1 <a href="#under-ranked">Under Ranked</a><br>
+3.2 <a href="#password-sharing">Password Sharing</a><br>
+3.3 <a href="#cheating">Cheating</a><br>
+3.4 <a href="#spam">Spam</a><br>
+3.5 <a href="#racism-hate-speech-and-personal-attacks">Racism, Hate Speech, and Personal Attacks</a></li>
+<li><a href="#helping-in-help-desk">Helping in <code>#help-desk</code></a></li>
 </ol>
-<h2 id="rules">Rules</h2>
-<p>Breaking these rules will result in a being <strong>BANNED</strong>.</p>
-<ol>
-<li>Do not threaten, harass, dox, or ddos.</li>
-<li>Do not break Discord ToS.</li>
-<li>Do not play in lobbies when under the minimum rank. You must forfeit (<code>-refresh</code> in game  <strong>NOT</strong> in Discord). Only applies to Chessbot games (not in <code>#intermediate-lobbies-no-bot</code>, etc).</li>
-<li>Do not post lobby passwords in Chessbot lobbies.</li>
-<li>Do not share Chessbot passwords (this includes joining a Chessbot lobby as a party).</li>
-<li>Use the same Steam account in game as when you join/host a lobby in Discord.</li>
-</ol>
-<h2 id="ranks">Ranks</h2>
-<p>Lobbies are organized using the following ranks:</p>
+<h2 id="get-startedmisc">Get Started/MISC</h2>
 <ul>
-<li>Beginner: <code>Unknown</code>+</li>
-<li>Intermediate: <code>Bishop-1</code>+</li>
-<li>Advanced: <code>Bishop-6</code>+</li>
-<li>Expert: <code>Rook-1</code>+</li>
-<li>Master: <code>Rook-5</code>+</li>
+<li>Please read this and <code>#readme</code></li>
+<li>Tag yourself with relevant roles if someone else hasn’t already (e.g. <code>readme-dev</code>, <code>Caster</code>, <code>Rustaff</code>, etc).</li>
+<li>Join the <a href="https://discord.gg/Jtkdcc" target="_blank">staff backup server</a>.</li>
+<li>The <a href="https://docs.google.com/spreadsheets/d/1GlVQ0fVPDKt0qnJJ4chqGBrrsmhkkZ1YqUxleVcYusg/edit?usp=sharing" target="_blank">qihl Backend Sheet</a> shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. Do not share the link.</li>
+<li>If you’re doing something other than moderating, get on the <a href="https://trello.com/invite/qihl1/0170a55acbb1a742c185aae0010783ae" target="_blank">qihl Trello board</a> so you know what your team is working on. If you’re a dev, everything should be in the gitlab repo.</li>
+<li>Do not <code>@staff</code>, <code>@moderators</code>, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient).</li>
+<li>Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them.</li>
+<li><a href="https://favicon.io/favicon-generator/?t=NAW&ff=Londrina+Solid&fs=80&fc=%23FFFFFF&b=rounded&bc=%23209CEE" target="_blank">Londrina Solid 80</a> is the font used for region emojis.</li>
+<li>Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create <code>@</code>'s yourself (e.g. <code>&lt;@93049613392568320&gt;</code>).</li>
 </ul>
-<h3 id="checking-ranks">Checking Ranks</h3>
-<p>Use these in <code>#chessbot-commands</code>, <strong>NOT</strong> in <code>#help-desk</code>.</p>
+<h2 id="channel-descriptions">Channel Descriptions</h2>
+<h3 id="info">Info</h3>
 <ul>
-<li>Check and update your rank (use this to get new roles when you rank up): <code>!rank</code></li>
-<li>Check someone else’s rank (without <code>[]</code>): <code>!rank [@DiscordName#0000]</code></li>
+<li><code>#readme</code>: Basic info in various languages. Read it!</li>
+<li><code>#announacements</code> Server wide announcements.</li>
+<li><code>#help-desk</code> People as for help with stuff; please help them when you have time.</li>
+<li><code>#player-reports</code> Reports. React with a ✓ when you resolve one.</li>
+<li><code>#stream-spam</code> qihl DAC streams.</li>
 </ul>
-<h2 id="reporting-players">Reporting Players</h2>
-<p>If you are in danger of demotion from a tier (e.g. You are <code>Bishop-1</code>, and playing in <code>#intermediate-lobbies-eue</code>) you should wait for your game to complete and your rank to update before you join another game in your current league. If your rank updates before you join your next game, but after you join the Chessbot lobby, and you are below the minimum rank for the league while in game (e.g. you lost your previous game and are now <code>Knight-9</code>) you must forfeit the game (by typing <code>-refresh</code> in game,  <strong>NOT</strong> in Discord) or be banned from this server.</p>
-<p>Players that experience this in your games, please consider not caring about a one-rank difference in your game. It doesn’t have a serious impact, and is often an honest mistake. Making a big deal of these instances is seldom beneficial for anyone. This is not an invitation to do this, however, and we do not condone this behavior. We will be handing out bans for this, so please be careful.</p>
-<p>If a player refuses to forfeit (<code>-refresh</code> in game,  <strong>NOT</strong> in Discord): Post a screenshot, their Steam Profile URL, and the final Chessbot Lobby message (after the host uses <code>!start</code>) to <code>#player-reports</code>. If you don’t provide all three of these things, the report won’t be considered. This does <strong>NOT</strong> apply to lobbies without Chessbot (e.g. <code>#intermediate-lobbies-no-bot</code>); we don’t enforce ranks in lobbies without Chessbot. If you need to report a player for some other reason, explain the reason in <code>#player-reports</code>.</p>
-<h2 id="finding-joining-and-hosting-games">Finding, Joining, and Hosting Games</h2>
-<p>Games are arranged through Chessbot. You must enable direct messages from this server to interact with Chessbot. Chessbot will whisper you the password for the lobby on Discord. Copy the password &gt; Open Auto Chess &gt; Lobby List &gt; Find Private Lobbies &gt; Paste Password &gt; Search &gt; Join Lobby. If no lobby shows up, the host may not have created it yet. Click the <code>refresh</code> button in the top-right of the page to re-search for the lobby. People can host lobbies in any region. Look at the region before starting in game to see if it’s acceptable to you. Use the following commands in <code>#[rank]-lobbies channels</code> <strong>ONLY</strong> (e.g. <code>#master-lobbies</code>): (without <code>[]</code>)</p>
+<h3 id="staff">Staff</h3>
 <ul>
-<li><code>!list</code> to show available lobbies.</li>
-<li><code>!join</code> to join a lobby if you’re in a <code>#[rank]-lobbies-[region]</code> channel (e.g. <code>#intermediate-lobbies-naw</code>).</li>
-<li><code>!join [region]</code> (without <code>[]</code>) to join a lobby if you’re in a non-<code>[region]</code> channel (e.g. <code>#beginner-lobbies</code>).
+<li><code>#staff-readme</code> This, which you should read.</li>
+<li><code>#readme-changes</code> Discuss/request changes to a readme.</li>
+<li><code>#staff-heads</code> Team heads and Organizational Development team.</li>
+<li><code>#staff-serious</code> Serious server discussion.</li>
+<li><code>#staff-general</code> Non-serious staff discussion.</li>
+<li><code>#staff-bot</code> Admin commands.</li>
+<li><code>#staff-lobbies</code> Staff DAC games.</li>
+<li><code>#stats-graphics</code> Stats &amp; Graphics team.</li>
+<li><code>#outreach</code> Outreach team.</li>
+<li><code>#casters</code> Caster team.</li>
+<li><code>#tournament-org</code> Tournament Organization team.</li>
+<li><code>#bans</code> Post bans, warns, and blacklistings.</li>
+<li><code>#deduction</code> Track down cheaters and the like.</li>
+<li><code>#secret-vip-room</code> Some streamers and high-level players.</li>
+</ul>
+<h3 id="development">Development</h3>
 <ul>
-<li>Regions are: <code>NA</code>, <code>SA</code>, <code>EUE</code>, <code>EUW</code>, <code>RU</code>, <code>SEA</code>, and <code>OCE</code></li>
+<li><code>#development</code> Software devs do magic.</li>
+<li><code>#gitlab</code> Bot posts updates for the repos.</li>
 </ul>
-</li>
-<li><code>!join [@DiscordName#0000]</code> (without <code>[]</code>) to join a specific players lobby.</li>
-<li><code>!leave</code> to leave a lobby.</li>
-<li><code>!lobby [@DiscordName#0000]</code> (without <code>[]</code>) to list the players in a players lobby.</li>
-<li><code>!host</code> to host a lobby if you’re in a <code>#[rank]-lobbies-[region]</code> channel (e.g. <code>#intermediate-lobbies-naw</code>).</li>
-<li><code>!host [region]</code> (without <code>[]</code>) if you’re in a non-<code>[region]</code> channel (e.g. <code>#beginner-lobbies</code>).</li>
-<li><code>!host [region] [rank-x]</code> (without <code>[]</code>. <code>rank-x</code> must be <code>your-rank</code> - 2 or lower) to restrict the rank of your lobby.</li>
-<li><code>!lobby</code> to list the players in your lobby.</li>
-<li><code>!kick [@DiscordName#0000]</code> (without <code>[]</code>) to kick a player from your lobby.</li>
-<li><code>!start</code> to start your game and close your lobby when the lobby fills (8/8 players). Please wait until everybody has loaded in before starting in game.</li>
-<li><code>!cancel</code> to close your lobby.</li>
+<h3 id="chessbot">Chessbot</h3>
+<ul>
+<li><code>#chessbot-commands</code> Users interact with Chessbot.</li>
+<li><code>#chessbot-feedback-and-issues</code> Users reports problems with Chessbot.</li>
+<li><code>#suggestion-panel</code> High level users and staff discuss changes to the server.</li>
 </ul>
-<h2 id="get-started">Get Started</h2>
-<p>Please <strong>read everything</strong> above this so you understand how to interact with this server. It will save you and the staff time and questions. Thank you. You can repeat the steps below to link a multiple Steam accounts to Discord, or to switch your active Steam account (you must use the same Steam account in-game as when you join/host a lobby in Discord).</p>
-<ol>
-<li>
-<p>Make sure you’re <strong>NOT</strong> set to invisible. Go to User Settings.<br>
-<img src="https://lh3.googleusercontent.com/BKWZi8LTdT8v6fdAQiwyLtOuR_jFj5CBjvxObViUGdM7F4jxnlGH3CxAfKgkP075SDZFcx0FvYY" alt="enter image description here"></p>
-</li>
-<li>
-<p>Go to Connections. Click the Steam icon.<br>
-<img src="https://lh3.googleusercontent.com/0BHECBR5G8obQXgH_J1IjqotC0jAQW2sXPBsFlngSYPPS4Pu_3LlAikr0Ls0WK8ymdb7ZbLhTkE" alt="enter image description here"></p>
-</li>
-<li>
-<p>Click sign in. If you haven’t signed into Steam in your browser, do so.<br>
-<img src="https://lh3.googleusercontent.com/Kc5SWqhe_lUFGBwGMVxmi7g3YWbHH1rouljLqFYFy0GyRZq-ECmLzWCPYVErm5gCFsQjHw6K54M" alt="enter image description here"></p>
-</li>
-<li>
-<p>Make sure Steam appears in your list of Discord Connections.<br>
-<img src="https://lh3.googleusercontent.com/XnuTe3xZWuJ0P9em1hM6a1ne9QsAFjFR_QEfi5ZVSOupezvNTh0ef5r58LsxJPCxskRoDyLJods" alt="enter image description here"></p>
-</li>
-<li>
-<p>Click this link: <a href="http://autochessbot.vinthian.com" target="_blank">autochessbot.vinthian.com</a>. Make sure this shows your Discord is connected to Steam, and the Discord and Steam usernames are correct. Click Authorize.<br>
-<img src="https://lh3.googleusercontent.com/08ZHOcSVKHEjHixMc53zFEc-zsw9fckQgiyG_T6dnNpot8F3vjmseO5Hoeiye8HwmudNYGawLCY" alt="enter image description here"></p>
-</li>
-<li>
-<p>Make sure it shows the correct <code>Steam64ID</code> and Steam Username. Click <code>Link [Steam64ID]</code>.<br>
-<img src="https://lh3.googleusercontent.com/W2TnP6mdOc0P_jULKu-wQZvYr8-bNwszT-lY19XgFT5p5C19jBZOjB3yVd0G6Tj-cchs4ufHogE" alt="enter image description here"></p>
-</li>
-<li>
-<p>You’re verified! You should be able to see some new channels in Discord (on the left. e.g. <code>#beginner-lobbies</code>). If something went wrong: clear your browser cache, make sure you are logged into the correct Discord account (name and number: <code>Name#0000</code>), make sure you aren’t set to invisible on Discord, and try again. If that doesn’t work, visit <code>#help-desk</code>.<br>
-<img src="https://lh3.googleusercontent.com/1uOA1tSQgY02_in_NJZ0ymz64tDwu-mlhHWaqUkHVlt37S-lEx80g7y_hu_9LHoRt0I9_g1Yoa8" alt="enter image description here"></p>
-</li>
-<li>
-<p>In <code>#chessbot-commands</code> use: <code>!updateroles</code></p>
-</li>
-<li>
-<p>Go to<code>#league-region</code> and react to the post get tagged with a region. You can remove your reaction if you don’t like the notifications.</p>
-</li>
-<li>
-<p>Go to a <code>#[rank]-lobbies</code> channel (e.g. <code>#beginner-lobbies</code>, <code>#intermediate-lobbies-eue</code> , etc) and have fun!</p>
-</li>
-</ol>
+<h2 id="player-reports">Player Reports</h2>
+<p>Only those with Staff 2 role have banning rights. If you are Staff, ask a Staff 2 to ban a user for you. Permaban is on the table for multiple offenses, but is evaluated case-by-case.</p>
+<h3 id="under-ranked">Under Ranked</h3>
+<ul>
+<li>1 rank under: Light Warning</li>
+<li>2 rank under: Light Warning</li>
+<li>3 rank under: Use best judgment. Strong Warning or ban based on the circumstances. If ban, unban if they apologize.</li>
+<li>4 rank under: Use best judgment. Strong Warning or ban based on the circumstances. If ban, unban if they apologize.</li>
+<li>5+ ranks under: 7 day ban minimum.</li>
+</ul>
+<h3 id="password-sharing">Password Sharing</h3>
+<p>Password sharing or inviting friends is often just ignorance to the rules. Most of these are a case-by-case basis.</p>
+<ul>
+<li>If you’ve decided they were just ignorant: Give a strong warning and a threat of ban if it happens in the future.</li>
+<li>If you’ve decided they were actively trying to get around the rules of the server: 7 day ban minimum.</li>
+<li>Ignore if the bot is down.</li>
+</ul>
+<p>If you’re unsure, judge based on the rank of the invited player relative to the rest of the lobby. (See Under Ranked rules)</p>
+<h3 id="cheating">Cheating</h3>
+<p>Make sure, beyond reasonable doubt, they were cheating. Consult with other staff if needed. <code>!blacklist [steamid] [reason]</code> if they are found guilty. Never unban (<code>!unblacklist [steamid]</code>) unless they can PROVE their innocence.</p>
+<h3 id="spam">Spam</h3>
+<p>If they had a clear intent to flood the server, beyond reasonable doubt, manual Ban to delete their messages with spam as the reason given. If they apologize, unban.</p>
+<h3 id="racism-hate-speech-and-personal-attacks">Racism, Hate Speech, and Personal Attacks</h3>
+<p>If it was beyond regular flaming and insults, 7 day minimum ban.</p>
+<h2 id="helping-in-help-desk">Helping in <code>#help-desk</code></h2>
+<ul>
+<li>Telling them to read <code>#readme</code> is often the best solution. Maybe mention the specific part.</li>
+<li>If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser. Maybe tell them to clear their browser cache and try again.</li>
+<li>If bot says a new persons rank is <code>error</code> check if they have a rank in game. If not, give them the beginner role or tell them to play a few more games until they get a rank.</li>
+<li>If bot says someone someones Steam is already linked to another Discord account, ask them to get on that Discord account and post in <code>#help-desk</code>. It’s not a huge deal if they can’t, but it’s preferable. Check if they’ve been banned. If not, <code>!adminunlinksteam [steamid]</code> to unlink from the other Discord account.</li>
+<li>Lobbies auto-close after 15 minutes of no activity, 10 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves.</li>
+</ul>
 </div>
   </body>
 </html>
