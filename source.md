@@ -27,7 +27,6 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 - If you're doing something other than moderating, get on the <a href="https://trello.com/invite/qihl1/0170a55acbb1a742c185aae0010783ae" target="_blank">qihl Trello board</a> so you know what your team is working on. If you're a dev, everything should be in the gitlab repo.  
 - Do not `@staff`, `@moderators`, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient). 
 - Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them. 
-- <a href="https://favicon.io/favicon-generator/?t=NAW&ff=Londrina+Solid&fs=80&fc=%23FFFFFF&b=rounded&bc=%23209CEE" target="_blank">Londrina Solid 80</a> is the font used for region emojis. 
 - Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create `@`'s yourself (e.g. `<@93049613392568320>`). 
 
 ## Channel Descriptions
