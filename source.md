@@ -34,7 +34,7 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 ### Info
 
 - `#readme`: Basic info in various languages. Read it!
-- `#announacements` Server wide announcements. 
+- `#announcements` Server wide announcements. 
 - `#help-desk` People as for help with stuff; please help them when you have time. 
 - `#player-reports` Reports. React with a ✓ when you resolve one.
 - `#stream-spam` qihl DAC streams.
