@@ -4,7 +4,7 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 
 ## Contents
 
-1. [Get Started/MISC](#get-started/misc)  
+1. [Get Started/MISC](#get-startedmisc)  
 2. [Channel Descriptions](#channel-descriptions)  
 	2.1 [Info](#info)  
 	2.2 [Staff](#staff)  
