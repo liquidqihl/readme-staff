@@ -22,9 +22,9 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 
 - Please read this and `#readme`
 - Tag yourself with relevant roles if someone else hasn't already (e.g. `readme-dev`, `Caster`, `Rustaff`, etc). 
-- Join the <a href="https://discord.gg/Jtkdcc" target="_blank">staff backup server</a>. 
-- The <a href="https://docs.google.com/spreadsheets/d/1GlVQ0fVPDKt0qnJJ4chqGBrrsmhkkZ1YqUxleVcYusg/edit?usp=sharing" target="_blank">qihl Backend Sheet</a> shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. Do not share the link. 
-- If you're doing something other than moderating, get on the <a href="https://trello.com/invite/qihl1/0170a55acbb1a742c185aae0010783ae" target="_blank">qihl Trello board</a> so you know what your team is working on. If you're a dev, everything should be in the gitlab repo.  
+- Join the staff backup server. Link is in `#staff-readme` .
+- The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from `#staff-readme`. Do not share the link!
+- If you're doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you're a dev, everything should be in the gitlab repo. You can find the Trello invite link in `#staff-readme`.
 - Do not `@staff`, `@moderators`, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient). 
 - Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them. 
 - Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create `@`'s yourself (e.g. `<@93049613392568320>`). 
