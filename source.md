@@ -23,8 +23,8 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 - Please read this and `#readme`
 - Tag yourself with relevant roles if someone else hasn't already (e.g. `readme-dev`, `Caster`, `Rustaff`, etc). 
 - Join the staff backup server. Link is in `#staff-readme` .
-- The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from `#staff-readme`. Do not share the link!
-- If you're doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you're a dev, everything should be in the gitlab repo. You can find the Trello invite link in `#staff-readme`.
+- The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from pinned posts of `#staff-serious`. Do not share the link!
+- If you're doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you're a dev, everything should be in the gitlab repo. You can find Trello and Gitlab by asking i
 - Do not `@staff`, `@moderators`, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient). 
 - Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them. 
 - Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create `@`'s yourself (e.g. `<@93049613392568320>`). 
@@ -69,7 +69,15 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 
 ## Player Reports
 
-Only those with Staff 2 role have banning rights. If you are Staff, ask a Staff 2 to ban a user for you. Permaban is on the table for multiple offenses, but is evaluated case-by-case. 
+Only those with Staff 2 role have banning rights. If you are Staff, ask a Staff 2 to ban a user for you. Ask Staff 2 if you are sure that they are in need of a ban, you can do a temporary ban with -mute and by removing all of their other roles by hand. Permaban is on the table for multiple offenses, but is evaluated case-by-case.
+
+### Mutes
+Use -mute command for temporary bans. It will message them the reason and they won't be able to post in any channel during the duration.  All moderators/staff can mute. The format is:
+
+`-mute <@discord> "<reason>" <time>`
+Example: `-mute @Deathkillsme "Because I can" 30m`
+
+With time parameter you can do 1h for one hour, 1m for one minute, 1s for one second. You should also be able to combine them like 4h30m15s for four hours thrity minutes and fifteen seconds Minumum duration is 2 minutes (2m) and maximum duration is is 168 hours (1 week) (186h)
 
 ### Under Ranked
 
@@ -94,16 +102,38 @@ Make sure, beyond reasonable doubt, they were cheating. Consult with other staff
 
 ### Spam
 
-If they had a clear intent to flood the server, beyond reasonable doubt, manual Ban to delete their messages with spam as the reason given. If they apologize, unban.
+If someone is spamming, you can use the -mute command to mute them.
+
+- Posting lobby passwords in non lobby channels 2 minute minimum
+  - If they post several times increase by a few minutes
+  - If they're just spamming every channel do few hours
 
 ### Racism, Hate Speech, and Personal Attacks
 
-If it was beyond regular flaming and insults, 7 day minimum ban.
+Mute by default (up to a week (168h)) but if it was beyond regular flaming and insults, permanent ban.
 
 ## Helping in `#help-desk`
 
 - Telling them to read `#readme` is often the best solution. Maybe mention the specific part. 
-- If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser. Maybe tell them to clear their browser cache and try again. 
-- If bot says a new persons rank is `error` check if they have a rank in game. If not, give them the beginner role or tell them to play a few more games until they get a rank. 
-- If bot says someone someones Steam is already linked to another Discord account, ask them to get on that Discord account and post in `#help-desk`. It's not a huge deal if they can't, but it's preferable. Check if they've been banned. If not, `!adminunlinksteam [steamid]` to unlink from the other Discord account. 
+
+- If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser.
+  - Ask them to open their browser in incognito mode and use that tab to log in to discord's web app and retry linking
+
+- If bot says a new persons rank is `error`, check if they have a rank in game. If not, tell them to play enough games to have rank and then try again (5 games needed for a rank)
+
+- If bot says someone someones Steam is already linked to another Discord account
+	- Ask them to get on that Discord account and post in `#help-desk`. It's not a huge deal if they can't, but it's preferable.
+	- Check if they've been banned.
+		- You can get the Discord account currently linked to that Steam with `!getd [steamid]`. If this returns <@id number> instead of Discord username it is likely that they are trying to avoid bans.
+			- Ask them for their steam64ID, they can use https://steamid.io to find it
+		- Search #bans, #deduction and #staff-bot channels in discord search with the Discord ID and with the steam64ID
+		- If `!getd` returned a valid discord account check that they don't have the `mute` role
+	- If everything seems to be in order, use `!adminunlinksteam [steamid]` to unlink from the other Discord account.
+	- If they are clearly avoiding bans, ban the new account as well. (For Staff 1 please mute them and ask Staff 2 to ban)
+	- If in doubt ask help in `#staff-serious`
+
+- If they ask about accessing higher lobbies tell them to use `!updateroles` in `#chessbot-commands3`
+	- Don't use `!adminupdateroles` for them, because otherwise they don't learn
+	- `!rank` command does not update roles anymore
+
 - Lobbies auto-close after 15 minutes of no activity, 5 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves. 

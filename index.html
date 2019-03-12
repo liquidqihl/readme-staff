@@ -35,8 +35,8 @@
 <li>Please read this and <code>#readme</code></li>
 <li>Tag yourself with relevant roles if someone else hasn’t already (e.g. <code>readme-dev</code>, <code>Caster</code>, <code>Rustaff</code>, etc).</li>
 <li>Join the staff backup server. Link is in <code>#staff-readme</code> .</li>
-<li>The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from <code>#staff-readme</code>. Do not share the link!</li>
-<li>If you’re doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you’re a dev, everything should be in the gitlab repo. You can find the Trello invite link in <code>#staff-readme</code>.</li>
+<li>The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from pinned posts of <code>#staff-serious</code>. Do not share the link!</li>
+<li>If you’re doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you’re a dev, everything should be in the gitlab repo. You can find Trello and Gitlab by asking i</li>
 <li>Do not <code>@staff</code>, <code>@moderators</code>, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient).</li>
 <li>Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them.</li>
 <li>Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create <code>@</code>'s yourself (e.g. <code>&lt;@93049613392568320&gt;</code>).</li>
@@ -79,7 +79,12 @@
 <li><code>#suggestion-panel</code> High level users and staff discuss changes to the server.</li>
 </ul>
 <h2 id="player-reports">Player Reports</h2>
-<p>Only those with Staff 2 role have banning rights. If you are Staff, ask a Staff 2 to ban a user for you. Permaban is on the table for multiple offenses, but is evaluated case-by-case.</p>
+<p>Only those with Staff 2 role have banning rights. If you are Staff, ask a Staff 2 to ban a user for you. Ask Staff 2 if you are sure that they are in need of a ban, you can do a temporary ban with -mute and by removing all of their other roles by hand. Permaban is on the table for multiple offenses, but is evaluated case-by-case.</p>
+<h3 id="mutes">Mutes</h3>
+<p>Use -mute command for temporary bans. It will message them the reason and they won’t be able to post in any channel during the duration.  All moderators/staff can mute. The format is:</p>
+<p><code>-mute &lt;@discord&gt; &quot;&lt;reason&gt;&quot; &lt;time&gt;</code>
+Example: <code>-mute @Deathkillsme &quot;Because I can&quot; 30m</code></p>
+<p>With time parameter you can do 1h for one hour, 1m for one minute, 1s for one second. You should also be able to combine them like 4h30m15s for four hours thrity minutes and fifteen seconds Minumum duration is 2 minutes (2m) and maximum duration is is 168 hours (1 week) (186h)</p>
 <h3 id="under-ranked">Under Ranked</h3>
 <ul>
 <li>1 rank under: Light Warning</li>
@@ -99,16 +104,61 @@
 <h3 id="cheating">Cheating</h3>
 <p>Make sure, beyond reasonable doubt, they were cheating. Consult with other staff if needed. <code>!blacklist [steamid] [reason]</code> if they are found guilty. Never unban (<code>!unblacklist [steamid]</code>) unless they can PROVE their innocence.</p>
 <h3 id="spam">Spam</h3>
-<p>If they had a clear intent to flood the server, beyond reasonable doubt, manual Ban to delete their messages with spam as the reason given. If they apologize, unban.</p>
+<p>If someone is spamming, you can use the -mute command to mute them.</p>
+<ul>
+<li>Posting lobby passwords in non lobby channels 2 minute minimum
+<ul>
+<li>If they post several times increase by a few minutes</li>
+<li>If they’re just spamming every channel do few hours</li>
+</ul>
+</li>
+</ul>
 <h3 id="racism-hate-speech-and-personal-attacks">Racism, Hate Speech, and Personal Attacks</h3>
-<p>If it was beyond regular flaming and insults, 7 day minimum ban.</p>
+<p>Mute by default (up to a week (168h)) but if it was beyond regular flaming and insults, permanent ban.</p>
 <h2 id="helping-in-help-desk">Helping in <code>#help-desk</code></h2>
 <ul>
-<li>Telling them to read <code>#readme</code> is often the best solution. Maybe mention the specific part.</li>
-<li>If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser. Maybe tell them to clear their browser cache and try again.</li>
-<li>If bot says a new persons rank is <code>error</code> check if they have a rank in game. If not, give them the beginner role or tell them to play a few more games until they get a rank.</li>
-<li>If bot says someone someones Steam is already linked to another Discord account, ask them to get on that Discord account and post in <code>#help-desk</code>. It’s not a huge deal if they can’t, but it’s preferable. Check if they’ve been banned. If not, <code>!adminunlinksteam [steamid]</code> to unlink from the other Discord account.</li>
-<li>Lobbies auto-close after 15 minutes of no activity, 5 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves.</li>
+<li>
+<p>Telling them to read <code>#readme</code> is often the best solution. Maybe mention the specific part.</p>
+</li>
+<li>
+<p>If someone is having trouble linking, ask them to make sure they are using the correct Discord/Steam in browser.</p>
+<ul>
+<li>Ask them to open their browser in incognito mode and use that tab to log in to discord’s web app and retry linking</li>
+</ul>
+</li>
+<li>
+<p>If bot says a new persons rank is <code>error</code>, check if they have a rank in game. If not, tell them to play enough games to have rank and then try again (5 games needed for a rank)</p>
+</li>
+<li>
+<p>If bot says someone someones Steam is already linked to another Discord account</p>
+<ul>
+<li>Ask them to get on that Discord account and post in <code>#help-desk</code>. It’s not a huge deal if they can’t, but it’s preferable.</li>
+<li>Check if they’ve been banned.
+<ul>
+<li>You can get the Discord account currently linked to that Steam with <code>!getd [steamid]</code>. If this returns &lt;@id number&gt; instead of Discord username it is likely that they are trying to avoid bans.
+<ul>
+<li>Ask them for their steam64ID, they can use <a href="https://steamid.io">https://steamid.io</a> to find it</li>
+</ul>
+</li>
+<li>Search #bans, #deduction and #staff-bot channels in discord search with the Discord ID and with the steam64ID</li>
+<li>If <code>!getd</code> returned a valid discord account check that they don’t have the <code>mute</code> role</li>
+</ul>
+</li>
+<li>If everything seems to be in order, use <code>!adminunlinksteam [steamid]</code> to unlink from the other Discord account.</li>
+<li>If they are clearly avoiding bans, ban the new account as well. (For Staff 1 please mute them and ask Staff 2 to ban)</li>
+<li>If in doubt ask help in <code>#staff-serious</code></li>
+</ul>
+</li>
+<li>
+<p>If they ask about accessing higher lobbies tell them to use <code>!updateroles</code> in <code>#chessbot-commands3</code></p>
+<ul>
+<li>Don’t use <code>!adminupdateroles</code> for them, because otherwise they don’t learn</li>
+<li><code>!rank</code> command does not update roles anymore</li>
+</ul>
+</li>
+<li>
+<p>Lobbies auto-close after 15 minutes of no activity, 5 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves.</p>
+</li>
 </ul>
 </div>
   </body>
