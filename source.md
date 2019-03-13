@@ -23,11 +23,12 @@ Welcome to Liquid.qihl staff! This document contains information to help you as 
 - Please read this and `#readme`
 - Tag yourself with relevant roles if someone else hasn't already (e.g. `readme-dev`, `Caster`, `Rustaff`, etc). 
 - Join the staff backup server. Link is in `#staff-readme` .
-- The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from pinned posts of `#staff-serious`. Do not share the link!
-- If you're doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you're a dev, everything should be in the gitlab repo. You can find Trello and Gitlab by asking i
+- The qihl Backend Sheet shows Staff Teams and leads, the complete Staff List, Staff Applications, Server Growth, tournament info, and other useful stuff. The link can be found from `#staff-readme`. Do not share the link!
+- If you're doing something other than moderating, you can get on the qihl Trello board so you know what your team is working on. If you're a dev, everything should be in the gitlab repo. You can find Trello invite link from `#staff-readme`
 - Do not `@staff`, `@moderators`, or similar unless there is a serious reason to do so (staff lobbies, minor player reports, memes, etc are NOT sufficient). 
 - Gold count at the end of a game is basically meaningless to humans as it adds from selling units but does not subtract from buying them. 
-- Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create `@`'s yourself (e.g. `<@93049613392568320>`). 
+- Enable developer mode in Discord settings under Appearence to right-click people and get their Discord ID. Then you can create `@`'s yourself (e.g. `<@!93049613392568320>`).
+  - When creating the mention with ID remember to put the '!' after the @ symbol, otherwise it might metion an user accidentally (e.g. `<@227190432>` would mention user called @22 and not the user with ID 227190432)
 
 ## Channel Descriptions
 
@@ -137,3 +138,12 @@ Mute by default (up to a week (168h)) but if it was beyond regular flaming and i
 	- `!rank` command does not update roles anymore
 
 - Lobbies auto-close after 15 minutes of no activity, 5 minutes of no activity when full, 60 minutes no matter what, or 10 join/leaves. 
+
+## Useful bot commands
+
+- `.serverinfo` Prints general information about the server (E.g. Users online and total users)
+- `!vstats` Prints number of verified users
+- `!getd <Steam64ID>` Returns Discord that the Steam64ID has been linked to.
+- `!gets <@!DiscordID> or @discorduser` Returns Steam64ID linked to the given Discord account.
+- `!getp <@!DiscordID> or @discorduser` Returns steam persona for the given Discord account.
+- `.prune <number of lines to delete>` Immediately deletes a number of lines starting from your .prune command. (Only usable by Staff 2+)
